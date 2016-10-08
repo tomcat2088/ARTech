@@ -1,0 +1,26 @@
+
+
+//- (void)setupVBO {
+//    const GLfloat vertex[4][9] = {
+//        { -0.5f, -0.5f, 0.0f,  0.9f, 0.0f, 0.0f, 1.0f,  0, 0 },
+//        { -0.5f, 0.5f, 0.0f,  0.0f, 0.9f, 0.0f, 1.0f,  0, 1 },
+//        { 0.5f, 0.5f, 0.0f,  0.0f, 0.0f, 0.9f, 1.0f,  1, 1 },
+//        { 0.5f, -0.5f, 0.0f,  0.4f, 0.4f, 0.4f, 1.0f,  1, 0 }
+//    };
+//    glGenBuffers(1, &_vertexVBO);
+//    glBindBuffer(GL_ARRAY_BUFFER, self.vertexVBO);
+//    glBufferData(GL_ARRAY_BUFFER, sizeof(vertex), vertex, GL_STATIC_DRAW);
+//    glBindBuffer(GL_ARRAY_BUFFER, 0);
+//
+//    const GLuint indice[2][3] = {
+//        0, 1, 2,
+//        2, 3, 0
+//    };
+//    glGenBuffers(1, &_indiceVBO);
+//    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, self.indiceVBO);
+//    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indice), indice, GL_STATIC_DRAW);
+//    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+//
+//    self.indiceCount = sizeof(indice) / sizeof(GLuint);
+//    self.vertexStride = sizeof(vertex[0]);
+//}
