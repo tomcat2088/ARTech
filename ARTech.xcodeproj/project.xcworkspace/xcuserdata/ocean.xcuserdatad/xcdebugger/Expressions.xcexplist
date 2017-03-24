@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ARView drawView:]:ARView.m">
+      </ContextState>
+      <ContextState
+         contextName = "::-[NFDetectViewController arWillProcessFrame:](AR2VideoBufferT *):NFDetectViewController.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.videoPlane-&gt;materials[0]">
+            </PersistentString>
+            <PersistentString
+               value = "[self.nfDetector featuresImage]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ELCamera::setMatrixDirect(float*):ELCamera.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "::-[ARPresenter setupDisplayView:](ARView *):ARPresenter.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::-[ARGLViewController arCameraCaptureDidCaptureData:](AR2VideoBufferT *):ARGLViewController.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cameraCapture.arParamLT">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "cv::Mat::release():mat.inl.hpp">
+      </ContextState>
+      <ContextState
+         contextName = "-[NFDetectViewController arCameraCaptureDidCaptureData:]:NFDetectViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UIImage(GL) textureFromImageData:size:bind:]:UIImage+GL.m">
+      </ContextState>
+      <ContextState
+         contextName = "::-[ARPresenter arCameraCaptureDidCaptureData:](AR2VideoBufferT *):ARPresenter.mm">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

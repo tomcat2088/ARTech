@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "83AE5E28D48ED329FE81BF66E90ABA452DBAB940",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "91CD1E5B8A7D15E282596150CB5F47A0154BE662" : 9223372036854775807,
+    "83AE5E28D48ED329FE81BF66E90ABA452DBAB940" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F166DF8-BFC7-4B13-BCE7-2C7DC04FDD12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "91CD1E5B8A7D15E282596150CB5F47A0154BE662" : "EZGLKit\/",
+    "83AE5E28D48ED329FE81BF66E90ABA452DBAB940" : "ARTech\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ARTech",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ARTech.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tomcat2088\/ARPractice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83AE5E28D48ED329FE81BF66E90ABA452DBAB940"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tomcat2088\/EZGLKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91CD1E5B8A7D15E282596150CB5F47A0154BE662"
+    }
+  ]
+}

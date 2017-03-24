@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "ARViewController.h"
+#import "HomeViewController.h"
+#import "ARNFTDataCreator.h"
+
+
 
 @interface AppDelegate ()
 
@@ -18,10 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    arUtilChangeToResourcesDirectory(AR_UTIL_RESOURCES_DIRECTORY_BEHAVIOR_BEST, NULL);
-    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [ARViewController new];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController: [[HomeViewController alloc] initWithStyle:UITableViewStyleGrouped]];
     [self.window makeKeyAndVisible];
     
     return YES;
